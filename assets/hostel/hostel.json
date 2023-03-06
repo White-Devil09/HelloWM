@@ -1,0 +1,232 @@
+{
+    "Hostels": [
+        {
+            "Hostel-ID": "A",
+            "No.of Washing machine": 6,
+            "Hostel": "Aryabatta (A-Block)",
+            "Floors": [
+                {
+                    "Floor-1": "Floor-A1",
+                    "Floor-2": "Floor-A2",
+                    "Floor-3": "Floor-A3",
+                    "Floor-4": "Floor-A4",
+                    "Floor-5": "Floor-A5",
+                    "Floor-6": "Floor-A6"
+                }
+            ]
+        },
+        {
+            "Hostel-ID": "B",
+            "No.of Washing machine": 6,
+            "Hostel": "Bhaskara (B-Block)",
+            "Floors": [
+                {
+                    "Floor-1": "Floor-B1",
+                    "Floor-2": "Floor-B2",
+                    "Floor-3": "Floor-B3",
+                    "Floor-4": "Floor-B4",
+                    "Floor-5": "Floor-B5",
+                    "Floor-6": "Floor-B6"
+                }
+            ]
+        },
+        {
+            "Hostel-ID": "C",
+            "No.of Washing machine": 6,
+            "Hostel": "Charaka (C-Block)",
+            "Floors": [
+                {
+                    "Floor-1": "Floor-C1",
+                    "Floor-2": "Floor-C2",
+                    "Floor-3": "Floor-C3",
+                    "Floor-4": "Floor-C4",
+                    "Floor-5": "Floor-C5",
+                    "Floor-6": "Floor-C6"
+                }
+            ]
+        },
+        {
+            "Hostel-ID": "D",
+            "No.of Washing machine": 6,
+            "Hostel": "Susrutha (D-Block)",
+            "Floors": [
+                {
+                    "Floor-1": "Floor-D1",
+                    "Floor-2": "Floor-D2",
+                    "Floor-3": "Floor-D3",
+                    "Floor-4": "Floor-D4",
+                    "Floor-5": "Floor-D5",
+                    "Floor-6": "Floor-D6"
+                }
+            ]
+        },
+        {
+            "Hostel-ID": "E",
+            "No.of Washing machine": 6,
+            "Hostel": "Kautilya (E-Block)",
+            "Floors": [
+                {
+                    "Floor-1": "Floor-E1",
+                    "Floor-2": "Floor-E2",
+                    "Floor-3": "Floor-E3",
+                    "Floor-4": "Floor-E4",
+                    "Floor-5": "Floor-E5",
+                    "Floor-6": "Floor-E6"
+                }
+            ]
+        },
+        {
+            "Hostel-ID": "F",
+            "No.of Washing machine": 6,
+            "Hostel": "Vyasa (F-Block)",
+            "Floors": [
+                {
+                    "Floor-1": "Floor-F1",
+                    "Floor-2": "Floor-F2",
+                    "Floor-3": "Floor-F3",
+                    "Floor-4": "Floor-F4",
+                    "Floor-5": "Floor-F5",
+                    "Floor-6": "Floor-F6"
+                }
+            ]
+        },
+        {
+            "Hostel-ID": "G",
+            "No.of Washing machine": 6,
+            "Hostel": "BramhaGupta (G-Block)",
+            "Floors": [
+                {
+                    "Floor-1": "Floor-G1",
+                    "Floor-2": "Floor-G2",
+                    "Floor-3": "Floor-G3",
+                    "Floor-4": "Floor-G4",
+                    "Floor-5": "Floor-G5",
+                    "Floor-6": "Floor-G6"
+                }
+            ]
+        },
+        {
+            "Hostel-ID": "H",
+            "No.of Washing machine": 6,
+            "Hostel": "VarahaMihira (H-Block)",
+            "Floors": [
+                {
+                    "Floor-1": "Floor-H1",
+                    "Floor-2": "Floor-H2",
+                    "Floor-3": "Floor-H3",
+                    "Floor-4": "Floor-H4",
+                    "Floor-5": "Floor-H5",
+                    "Floor-6": "Floor-H6"
+                }
+            ]
+        },
+        {
+            "Hostel-ID": "I",
+            "No.of Washing machine": 6,
+            "Hostel": "Mythri (I-Block)",
+            "Floors": [
+                {
+                    "Floor-1": "Floor-I1",
+                    "Floor-2": "Floor-I2",
+                    "Floor-3": "Floor-I3",
+                    "Floor-4": "Floor-I4",
+                    "Floor-5": "Floor-I5",
+                    "Floor-6": "Floor-I6"
+                }
+            ]
+        },
+        {
+            "Hostel-ID": "J",
+            "No.of Washing machine": 6,
+            "Hostel": "Gargi (J-Block)",
+            "Floors": [
+                {
+                    "Floor-1": "Floor-J1",
+                    "Floor-2": "Floor-J2",
+                    "Floor-3": "Floor-J3",
+                    "Floor-4": "Floor-J4",
+                    "Floor-5": "Floor-J5",
+                    "Floor-6": "Floor-J6"
+                }
+            ]
+        },
+        {
+            "Hostel-ID": "K",
+            "No.of Washing machine": 10,
+            "Hostel": "Ramanujan (k-Block)",
+            "Floors": [
+                {
+                    "Floor-1": "Floor-K1",
+                    "Floor-2": "Floor-K2",
+                    "Floor-3": "Floor-K3",
+                    "Floor-4": "Floor-K4",
+                    "Floor-5": "Floor-K5",
+                    "Floor-6": "Floor-K6",
+                    "Floor-7": "Floor-K7",
+                    "Floor-8": "Floor-K8",
+                    "Floor-9": "Floor-K9",
+                    "Floor-10": "Floor-K10"
+                }
+            ]
+        },
+        {
+            "Hostel-ID": "L",
+            "No.of Washing machine": 10,
+            "Hostel": "Raman (L-Block)",
+            "Floors": [
+                {
+                    "Floor-1": "Floor-L1",
+                    "Floor-2": "Floor-L2",
+                    "Floor-3": "Floor-L3",
+                    "Floor-4": "Floor-L4",
+                    "Floor-5": "Floor-L5",
+                    "Floor-6": "Floor-L6",
+                    "Floor-7": "Floor-L7",
+                    "Floor-8": "Floor-L8",
+                    "Floor-9": "Floor-L9",
+                    "Floor-10": "Floor-L10"
+                }
+            ]
+        },
+        {
+            "Hostel-ID": "M",
+            "No.of Washing machine": 10,
+            "Hostel": "Kalam (M-Block)",
+            "Floors": [
+                {
+                    "Floor-1": "Floor-M1",
+                    "Floor-2": "Floor-M2",
+                    "Floor-3": "Floor-M3",
+                    "Floor-4": "Floor-M4",
+                    "Floor-5": "Floor-M5",
+                    "Floor-6": "Floor-M6",
+                    "Floor-7": "Floor-M7",
+                    "Floor-8": "Floor-M8",
+                    "Floor-9": "Floor-M9",
+                    "Floor-10": "Floor-M10"
+                }
+            ]
+        },
+        {
+            "Hostel-ID": "R",
+            "No.of Washing machine": 12,
+            "Hostel": "Ramanuja (R-Block)",
+            "Floors": [
+                {
+                    "Floor-1-1": "Floor-R1-pod-1",
+                    "Floor-1-2": "Floor-R1-pod-3",
+                    "Floor-2-1": "Floor-R2-pod-1",
+                    "Floor-2-2": "Floor-R2-pod-3",
+                    "Floor-3-1": "Floor-R3-pod-1",
+                    "Floor-3-2": "Floor-R3-pod-3",
+                    "Floor-4-1": "Floor-R4-pod-1",
+                    "Floor-4-2": "Floor-R4-pod-3",
+                    "Floor-5-1": "Floor-R5-pod-1",
+                    "Floor-5-2": "Floor-R5-pod-3",
+                    "Floor-6-1": "Floor-R6-pod-1",
+                    "Floor-6-2": "Floor-R6-pod-3"
+                }
+            ]
+        }
+    ]
+}
