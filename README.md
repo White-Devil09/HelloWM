@@ -29,7 +29,7 @@ We implementing the following features
 **Details of the design -** There are two main branches, **hostels** and **users**. **hostels** have the data of all the hostels with all the machines on each of their floors. **users** have the data of all the users registered on the app. Each machine is given an ID relating it to its hostel and floor.
 * **status** - status BUSY/FREE 
 * **time_left** - time left till it becomes free
-* **user** - ldap of user if it is busy
+* **user** - details of user if it is busy
 
 Each **user** branch is having children corresponding to the details of the registered users like
 * **name** - name of the user
