@@ -23,7 +23,7 @@ The frontend of the app is to be written in flutter in order to make it cross-pl
 I've planned to use Firebase as the backend of the application, due to its simplicity and compatibility. Anyone can create a firebase project and test his/her apps on it. 
 
 We implementing the following features
-* Using realtime database to store the details of the washing machines
+* Using firestore database to store the details of the washing machines
 * Using authentication to create accounts and verify them
 
 **Details of the design -** There are two main branches, **hostels** and **users**. **hostels** have the data of all the hostels with all the machines on each of their floors. **users** have the data of all the users registered on the app. Each machine is given an ID relating it to its hostel and floor.

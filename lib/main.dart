@@ -21,7 +21,7 @@ class HelloWM extends StatelessWidget {
   Widget build(BuildContext context) => ChangeNotifierProvider(
     create: (context)=> GoogleSignInProvider(),
      child : GetMaterialApp(
-      title: 'Flutter Demo',
+      title: 'Hello WM',
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
         primarySwatch:Colors.blue,
