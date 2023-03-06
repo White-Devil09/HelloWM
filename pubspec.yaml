@@ -31,13 +31,14 @@ dev_dependencies:
 flutter_icons:
   android: "launcher_icon"
   ios: true
-  image_path: "assets/logo.webp"
+  image_path: "assets/Images/logo.webp"
   min_sdk_android: 21 
 
 flutter:
   uses-material-design: true
 
   assets:
-    - assets/
+    - assets/Images/
+    - assets/hostel/
   #   - images/a_dot_ham.jpeg
 

@@ -60,7 +60,7 @@ class _SplashScreenState extends State<SplashScreen> {
           Image.asset(
             width: MediaQuery.of(context).size.width,
             height: MediaQuery.of(context).size.height * 0.5,
-            'assets/splash.gif',
+            'assets/Images/splash.gif',
           ),
           const SizedBox(
             child: CircularProgressIndicator(

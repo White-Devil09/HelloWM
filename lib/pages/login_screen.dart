@@ -31,7 +31,7 @@ class LoginPage extends StatelessWidget {
           Image.asset(
             width: MediaQuery.of(context).size.width,
             height: MediaQuery.of(context).size.height * 0.5,
-            'assets/login.gif',
+            'assets/Images/login.gif',
           ),
           ElevatedButton.icon(
             style: ElevatedButton.styleFrom(

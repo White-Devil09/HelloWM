@@ -1,9 +1,10 @@
 {
+    "ID": "IITH",
     "Hostels": [
         {
-            "Hostel-ID": "A",
+            "Hostel-ID": "A - Block",
             "No.of Washing machine": 6,
-            "Hostel": "Aryabatta (A-Block)",
+            "Hostel": "Aryabatta",
             "Floors": [
                 {
                     "Floor-1": "Floor-A1",
@@ -16,9 +17,9 @@
             ]
         },
         {
-            "Hostel-ID": "B",
+            "Hostel-ID": "B - Block",
             "No.of Washing machine": 6,
-            "Hostel": "Bhaskara (B-Block)",
+            "Hostel": "Bhaskara",
             "Floors": [
                 {
                     "Floor-1": "Floor-B1",
@@ -31,9 +32,9 @@
             ]
         },
         {
-            "Hostel-ID": "C",
+            "Hostel-ID": "C - Block",
             "No.of Washing machine": 6,
-            "Hostel": "Charaka (C-Block)",
+            "Hostel": "Charaka",
             "Floors": [
                 {
                     "Floor-1": "Floor-C1",
@@ -46,9 +47,9 @@
             ]
         },
         {
-            "Hostel-ID": "D",
+            "Hostel-ID": "D - Block",
             "No.of Washing machine": 6,
-            "Hostel": "Susrutha (D-Block)",
+            "Hostel": "Susrutha",
             "Floors": [
                 {
                     "Floor-1": "Floor-D1",
@@ -61,9 +62,9 @@
             ]
         },
         {
-            "Hostel-ID": "E",
+            "Hostel-ID": "E - Block",
             "No.of Washing machine": 6,
-            "Hostel": "Kautilya (E-Block)",
+            "Hostel": "Kautilya",
             "Floors": [
                 {
                     "Floor-1": "Floor-E1",
@@ -76,9 +77,9 @@
             ]
         },
         {
-            "Hostel-ID": "F",
+            "Hostel-ID": "F - Block",
             "No.of Washing machine": 6,
-            "Hostel": "Vyasa (F-Block)",
+            "Hostel": "Vyasa",
             "Floors": [
                 {
                     "Floor-1": "Floor-F1",
@@ -91,9 +92,9 @@
             ]
         },
         {
-            "Hostel-ID": "G",
+            "Hostel-ID": "G - Block",
             "No.of Washing machine": 6,
-            "Hostel": "BramhaGupta (G-Block)",
+            "Hostel": "BramhaGupta",
             "Floors": [
                 {
                     "Floor-1": "Floor-G1",
@@ -106,9 +107,9 @@
             ]
         },
         {
-            "Hostel-ID": "H",
+            "Hostel-ID": "H - Block",
             "No.of Washing machine": 6,
-            "Hostel": "VarahaMihira (H-Block)",
+            "Hostel": "VarahaMihira",
             "Floors": [
                 {
                     "Floor-1": "Floor-H1",
@@ -121,9 +122,9 @@
             ]
         },
         {
-            "Hostel-ID": "I",
+            "Hostel-ID": "I - Block",
             "No.of Washing machine": 6,
-            "Hostel": "Mythri (I-Block)",
+            "Hostel": "Mythri",
             "Floors": [
                 {
                     "Floor-1": "Floor-I1",
@@ -136,9 +137,9 @@
             ]
         },
         {
-            "Hostel-ID": "J",
+            "Hostel-ID": "J - Block",
             "No.of Washing machine": 6,
-            "Hostel": "Gargi (J-Block)",
+            "Hostel": "Gargi",
             "Floors": [
                 {
                     "Floor-1": "Floor-J1",
@@ -151,9 +152,9 @@
             ]
         },
         {
-            "Hostel-ID": "K",
+            "Hostel-ID": "K - Block",
             "No.of Washing machine": 10,
-            "Hostel": "Ramanujan (k-Block)",
+            "Hostel": "Ramanujan",
             "Floors": [
                 {
                     "Floor-1": "Floor-K1",
@@ -170,9 +171,9 @@
             ]
         },
         {
-            "Hostel-ID": "L",
+            "Hostel-ID": "L - Block",
             "No.of Washing machine": 10,
-            "Hostel": "Raman (L-Block)",
+            "Hostel": "Raman",
             "Floors": [
                 {
                     "Floor-1": "Floor-L1",
@@ -189,9 +190,9 @@
             ]
         },
         {
-            "Hostel-ID": "M",
+            "Hostel-ID": "M - Block",
             "No.of Washing machine": 10,
-            "Hostel": "Kalam (M-Block)",
+            "Hostel": "Kalam",
             "Floors": [
                 {
                     "Floor-1": "Floor-M1",
@@ -208,9 +209,9 @@
             ]
         },
         {
-            "Hostel-ID": "R",
+            "Hostel-ID": "R - Block",
             "No.of Washing machine": 12,
-            "Hostel": "Ramanuja (R-Block)",
+            "Hostel": "Ramanuja",
             "Floors": [
                 {
                     "Floor-1-1": "Floor-R1-pod-1",
