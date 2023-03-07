@@ -2,6 +2,7 @@ import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:hellowm/pages/floor_screen.dart';
+import 'package:hellowm/pages/user_screen.dart';
 
 class HomePage extends StatefulWidget {
   const HomePage({super.key});
@@ -51,13 +52,6 @@ class _HomePageState extends State<HomePage> {
                   fontWeight: FontWeight.bold,
                 ),
               ),
-              actions: [
-                PopupMenuButton(
-                    icon: CircleAvatar(
-                      backgroundImage: NetworkImage(user.photoURL!,scale: 0.1),
-                    ),
-                    itemBuilder: (context) => [])
-              ],
             ),
             Positioned(
               top: MediaQuery.of(context).size.height * 0.14,
@@ -100,6 +94,7 @@ class _HomePageState extends State<HomePage> {
                     return Padding(
                       padding: EdgeInsets.only(
                         left: MediaQuery.of(context).size.width * 0.01,
+                        right: MediaQuery.of(context).size.width * 0.01,
                         bottom: 10,
                       ),
                       child: ListTile(
