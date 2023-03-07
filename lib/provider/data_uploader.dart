@@ -30,17 +30,25 @@ class DataUploader extends GetxController{
     var batch = firestore.batch();
 
     for(var hstl in hostelsData){
-      batch.set( hostelRF.doc(hstl.id), {
+      batch.set( hostelRF.doc(hstl.iD), {
         "blocks_count":hstl.hostels==null?0:hstl.hostels!.length
       });
 
       for(var blocks in hstl.hostels!){
-        final blockData = blockRF(hostelid: hstl.id, blockid: blocks.hostelID);
+        final blockData = blockRF(hostelid: hstl.iD, blockid: blocks.hostelID);
         batch.set(blockData, {
           "Block" : blocks.hostel,
           "Hostel-ID": blocks.hostelID,
-          "floor_count": blocks.noOfWashingMachine
+          "floor_count": blocks.floors==null?0:blocks.floors!.length
         });
+
+        for(var flr in blocks.floors!){
+          final floorData = floorRF(hostelid: hstl.iD, blockid: blocks.hostelID, floorid: flr.floor);
+          batch.set(floorData,{
+            "Floor" : flr.floor,
+            "Busy Status": flr.busyStatus
+          });
+        }
 
       }
     }

@@ -3,229 +3,493 @@
     "Hostels": [
         {
             "Hostel-ID": "A - Block",
-            "No.of Washing machine": 6,
             "Hostel": "Aryabatta",
             "Floors": [
                 {
-                    "Floor-1": "Floor-A1",
-                    "Floor-2": "Floor-A2",
-                    "Floor-3": "Floor-A3",
-                    "Floor-4": "Floor-A4",
-                    "Floor-5": "Floor-A5",
-                    "Floor-6": "Floor-A6"
+                    "Floor": "Floor-A1",
+                    "Busy Status": false
+                },
+                {
+                    "Floor": "Floor-A2",
+                    "Busy Status": false
+                },
+                {
+                    "Floor": "Floor-A3",
+                    "Busy Status": false
+                },
+                {
+                    "Floor": "Floor-A4",
+                    "Busy Status": false
+                },
+                {
+                    "Floor": "Floor-A5",
+                    "Busy Status": false
+                },
+                {
+                    "Floor": "Floor-A6",
+                    "Busy Status": false
                 }
             ]
         },
         {
             "Hostel-ID": "B - Block",
-            "No.of Washing machine": 6,
             "Hostel": "Bhaskara",
             "Floors": [
                 {
-                    "Floor-1": "Floor-B1",
-                    "Floor-2": "Floor-B2",
-                    "Floor-3": "Floor-B3",
-                    "Floor-4": "Floor-B4",
-                    "Floor-5": "Floor-B5",
-                    "Floor-6": "Floor-B6"
+                    "Floor": "Floor-B1",
+                    "Busy Status": false
+                },
+                {
+                    "Floor": "Floor-B2",
+                    "Busy Status": false
+                },
+                {
+                    "Floor": "Floor-B3",
+                    "Busy Status": false
+                },
+                {
+                    "Floor": "Floor-B4",
+                    "Busy Status": false
+                },
+                {
+                    "Floor": "Floor-B5",
+                    "Busy Status": false
+                },
+                {
+                    "Floor": "Floor-B6",
+                    "Busy Status": false
                 }
             ]
         },
         {
             "Hostel-ID": "C - Block",
-            "No.of Washing machine": 6,
             "Hostel": "Charaka",
             "Floors": [
                 {
-                    "Floor-1": "Floor-C1",
-                    "Floor-2": "Floor-C2",
-                    "Floor-3": "Floor-C3",
-                    "Floor-4": "Floor-C4",
-                    "Floor-5": "Floor-C5",
-                    "Floor-6": "Floor-C6"
+                    "Floor": "Floor-C1",
+                    "Busy Status": false
+                },
+                {
+                    "Floor": "Floor-C2",
+                    "Busy Status": false
+                },
+                {
+                    "Floor": "Floor-C3",
+                    "Busy Status": false
+                },
+                {
+                    "Floor": "Floor-C4",
+                    "Busy Status": false
+                },
+                {
+                    "Floor": "Floor-C5",
+                    "Busy Status": false
+                },
+                {
+                    "Floor": "Floor-C6",
+                    "Busy Status": false
                 }
             ]
         },
         {
             "Hostel-ID": "D - Block",
-            "No.of Washing machine": 6,
             "Hostel": "Susrutha",
             "Floors": [
                 {
-                    "Floor-1": "Floor-D1",
-                    "Floor-2": "Floor-D2",
-                    "Floor-3": "Floor-D3",
-                    "Floor-4": "Floor-D4",
-                    "Floor-5": "Floor-D5",
-                    "Floor-6": "Floor-D6"
+                    "Floor": "Floor-D1",
+                    "Busy Status": false
+                },
+                {
+                    "Floor": "Floor-D2",
+                    "Busy Status": false
+                },
+                {
+                    "Floor": "Floor-D3",
+                    "Busy Status": false
+                },
+                {
+                    "Floor": "Floor-D4",
+                    "Busy Status": false
+                },
+                {
+                    "Floor": "Floor-D5",
+                    "Busy Status": false
+                },
+                {
+                    "Floor": "Floor-D6",
+                    "Busy Status": false
                 }
             ]
         },
         {
             "Hostel-ID": "E - Block",
-            "No.of Washing machine": 6,
             "Hostel": "Kautilya",
             "Floors": [
                 {
-                    "Floor-1": "Floor-E1",
-                    "Floor-2": "Floor-E2",
-                    "Floor-3": "Floor-E3",
-                    "Floor-4": "Floor-E4",
-                    "Floor-5": "Floor-E5",
-                    "Floor-6": "Floor-E6"
+                    "Floor": "Floor-E1",
+                    "Busy Status": false
+                },
+                {
+                    "Floor": "Floor-E2",
+                    "Busy Status": false
+                },
+                {
+                    "Floor": "Floor-E3",
+                    "Busy Status": false
+                },
+                {
+                    "Floor": "Floor-E4",
+                    "Busy Status": false
+                },
+                {
+                    "Floor": "Floor-E5",
+                    "Busy Status": false
+                },
+                {
+                    "Floor": "Floor-E6",
+                    "Busy Status": false
                 }
             ]
         },
         {
             "Hostel-ID": "F - Block",
-            "No.of Washing machine": 6,
             "Hostel": "Vyasa",
             "Floors": [
                 {
-                    "Floor-1": "Floor-F1",
-                    "Floor-2": "Floor-F2",
-                    "Floor-3": "Floor-F3",
-                    "Floor-4": "Floor-F4",
-                    "Floor-5": "Floor-F5",
-                    "Floor-6": "Floor-F6"
+                    "Floor": "Floor-F1",
+                    "Busy Status": false
+                },
+                {
+                    "Floor": "Floor-F2",
+                    "Busy Status": false
+                },
+                {
+                    "Floor": "Floor-F3",
+                    "Busy Status": false
+                },
+                {
+                    "Floor": "Floor-F4",
+                    "Busy Status": false
+                },
+                {
+                    "Floor": "Floor-F5",
+                    "Busy Status": false
+                },
+                {
+                    "Floor": "Floor-F6",
+                    "Busy Status": false
                 }
             ]
         },
         {
             "Hostel-ID": "G - Block",
-            "No.of Washing machine": 6,
             "Hostel": "BramhaGupta",
             "Floors": [
                 {
-                    "Floor-1": "Floor-G1",
-                    "Floor-2": "Floor-G2",
-                    "Floor-3": "Floor-G3",
-                    "Floor-4": "Floor-G4",
-                    "Floor-5": "Floor-G5",
-                    "Floor-6": "Floor-G6"
+                    "Floor": "Floor-G1",
+                    "Busy Status": false
+                },
+                {
+                    "Floor": "Floor-G2",
+                    "Busy Status": false
+                },
+                {
+                    "Floor": "Floor-G3",
+                    "Busy Status": false
+                },
+                {
+                    "Floor": "Floor-G4",
+                    "Busy Status": false
+                },
+                {
+                    "Floor": "Floor-G5",
+                    "Busy Status": false
+                },
+                {
+                    "Floor": "Floor-G6",
+                    "Busy Status": false
                 }
             ]
         },
         {
             "Hostel-ID": "H - Block",
-            "No.of Washing machine": 6,
             "Hostel": "VarahaMihira",
             "Floors": [
                 {
-                    "Floor-1": "Floor-H1",
-                    "Floor-2": "Floor-H2",
-                    "Floor-3": "Floor-H3",
-                    "Floor-4": "Floor-H4",
-                    "Floor-5": "Floor-H5",
-                    "Floor-6": "Floor-H6"
+                    "Floor": "Floor-H1",
+                    "Busy Status": false
+                },
+                {
+                    "Floor": "Floor-H2",
+                    "Busy Status": false
+                },
+                {
+                    "Floor": "Floor-H3",
+                    "Busy Status": false
+                },
+                {
+                    "Floor": "Floor-H4",
+                    "Busy Status": false
+                },
+                {
+                    "Floor": "Floor-H5",
+                    "Busy Status": false
+                },
+                {
+                    "Floor": "Floor-H6",
+                    "Busy Status": false
                 }
             ]
         },
         {
             "Hostel-ID": "I - Block",
-            "No.of Washing machine": 6,
             "Hostel": "Mythri",
             "Floors": [
                 {
-                    "Floor-1": "Floor-I1",
-                    "Floor-2": "Floor-I2",
-                    "Floor-3": "Floor-I3",
-                    "Floor-4": "Floor-I4",
-                    "Floor-5": "Floor-I5",
-                    "Floor-6": "Floor-I6"
+                    "Floor": "Floor-I1",
+                    "Busy Status": false
+                },
+                {
+                    "Floor": "Floor-I2",
+                    "Busy Status": false
+                },
+                {
+                    "Floor": "Floor-I3",
+                    "Busy Status": false
+                },
+                {
+                    "Floor": "Floor-I4",
+                    "Busy Status": false
+                },
+                {
+                    "Floor": "Floor-I5",
+                    "Busy Status": false
+                },
+                {
+                    "Floor": "Floor-I6",
+                    "Busy Status": false
                 }
             ]
         },
         {
             "Hostel-ID": "J - Block",
-            "No.of Washing machine": 6,
             "Hostel": "Gargi",
             "Floors": [
                 {
-                    "Floor-1": "Floor-J1",
-                    "Floor-2": "Floor-J2",
-                    "Floor-3": "Floor-J3",
-                    "Floor-4": "Floor-J4",
-                    "Floor-5": "Floor-J5",
-                    "Floor-6": "Floor-J6"
+                    "Floor": "Floor-J1",
+                    "Busy Status": false
+                },
+                {
+                    "Floor": "Floor-J2",
+                    "Busy Status": false
+                },
+                {
+                    "Floor": "Floor-J3",
+                    "Busy Status": false
+                },
+                {
+                    "Floor": "Floor-J4",
+                    "Busy Status": false
+                },
+                {
+                    "Floor": "Floor-J5",
+                    "Busy Status": false
+                },
+                {
+                    "Floor": "Floor-J6",
+                    "Busy Status": false
                 }
             ]
         },
         {
             "Hostel-ID": "K - Block",
-            "No.of Washing machine": 10,
             "Hostel": "Ramanujan",
             "Floors": [
                 {
-                    "Floor-1": "Floor-K1",
-                    "Floor-2": "Floor-K2",
-                    "Floor-3": "Floor-K3",
-                    "Floor-4": "Floor-K4",
-                    "Floor-5": "Floor-K5",
-                    "Floor-6": "Floor-K6",
-                    "Floor-7": "Floor-K7",
-                    "Floor-8": "Floor-K8",
-                    "Floor-9": "Floor-K9",
-                    "Floor-10": "Floor-K10"
+                    "Floor": "Floor-K1",
+                    "Busy Status": false
+                },
+                {
+                    "Floor": "Floor-K2",
+                    "Busy Status": false
+                },
+                {
+                    "Floor": "Floor-K3",
+                    "Busy Status": false
+                },
+                {
+                    "Floor": "Floor-K4",
+                    "Busy Status": false
+                },
+                {
+                    "Floor": "Floor-K5",
+                    "Busy Status": false
+                },
+                {
+                    "Floor": "Floor-K6",
+                    "Busy Status": false
+                },
+                {
+                    "Floor": "Floor-K7",
+                    "Busy Status": false
+                },
+                {
+                    "Floor": "Floor-K8",
+                    "Busy Status": false
+                },
+                {
+                    "Floor": "Floor-K9",
+                    "Busy Status": false
+                },
+                {
+                    "Floor": "Floor-K10",
+                    "Busy Status": false
                 }
             ]
         },
         {
             "Hostel-ID": "L - Block",
-            "No.of Washing machine": 10,
             "Hostel": "Raman",
             "Floors": [
                 {
-                    "Floor-1": "Floor-L1",
-                    "Floor-2": "Floor-L2",
-                    "Floor-3": "Floor-L3",
-                    "Floor-4": "Floor-L4",
-                    "Floor-5": "Floor-L5",
-                    "Floor-6": "Floor-L6",
-                    "Floor-7": "Floor-L7",
-                    "Floor-8": "Floor-L8",
-                    "Floor-9": "Floor-L9",
-                    "Floor-10": "Floor-L10"
+                    "Floor": "Floor-L1",
+                    "Busy Status": false
+                },
+                {
+                    "Floor": "Floor-L2",
+                    "Busy Status": false
+                },
+                {
+                    "Floor": "Floor-L3",
+                    "Busy Status": false
+                },
+                {
+                    "Floor": "Floor-L4",
+                    "Busy Status": false
+                },
+                {
+                    "Floor": "Floor-L5",
+                    "Busy Status": false
+                },
+                {
+                    "Floor": "Floor-L6",
+                    "Busy Status": false
+                },
+                {
+                    "Floor": "Floor-L7",
+                    "Busy Status": false
+                },
+                {
+                    "Floor": "Floor-L8",
+                    "Busy Status": false
+                },
+                {
+                    "Floor": "Floor-L9",
+                    "Busy Status": false
+                },
+                {
+                    "Floor": "Floor-L10",
+                    "Busy Status": false
                 }
             ]
         },
         {
             "Hostel-ID": "M - Block",
-            "No.of Washing machine": 10,
             "Hostel": "Kalam",
             "Floors": [
                 {
-                    "Floor-1": "Floor-M1",
-                    "Floor-2": "Floor-M2",
-                    "Floor-3": "Floor-M3",
-                    "Floor-4": "Floor-M4",
-                    "Floor-5": "Floor-M5",
-                    "Floor-6": "Floor-M6",
-                    "Floor-7": "Floor-M7",
-                    "Floor-8": "Floor-M8",
-                    "Floor-9": "Floor-M9",
-                    "Floor-10": "Floor-M10"
+                    "Floor": "Floor-M1",
+                    "Busy Status": false
+                },
+                {
+                    "Floor": "Floor-M2",
+                    "Busy Status": false
+                },
+                {
+                    "Floor": "Floor-M3",
+                    "Busy Status": false
+                },
+                {
+                    "Floor": "Floor-M4",
+                    "Busy Status": false
+                },
+                {
+                    "Floor": "Floor-M5",
+                    "Busy Status": false
+                },
+                {
+                    "Floor": "Floor-M6",
+                    "Busy Status": false
+                },
+                {
+                    "Floor": "Floor-M7",
+                    "Busy Status": false
+                },
+                {
+                    "Floor": "Floor-M8",
+                    "Busy Status": false
+                },
+                {
+                    "Floor": "Floor-M9",
+                    "Busy Status": false
+                },
+                {
+                    "Floor": "Floor-M10",
+                    "Busy Status": false
                 }
             ]
         },
         {
             "Hostel-ID": "R - Block",
-            "No.of Washing machine": 12,
             "Hostel": "Ramanuja",
             "Floors": [
                 {
-                    "Floor-1-1": "Floor-R1-pod-1",
-                    "Floor-1-2": "Floor-R1-pod-3",
-                    "Floor-2-1": "Floor-R2-pod-1",
-                    "Floor-2-2": "Floor-R2-pod-3",
-                    "Floor-3-1": "Floor-R3-pod-1",
-                    "Floor-3-2": "Floor-R3-pod-3",
-                    "Floor-4-1": "Floor-R4-pod-1",
-                    "Floor-4-2": "Floor-R4-pod-3",
-                    "Floor-5-1": "Floor-R5-pod-1",
-                    "Floor-5-2": "Floor-R5-pod-3",
-                    "Floor-6-1": "Floor-R6-pod-1",
-                    "Floor-6-2": "Floor-R6-pod-3"
+                    "Floor": "Floor-R1-Pod-1",
+                    "Busy Status": false
+                },
+                {
+                    "Floor": "Floor-R1-Pod-3",
+                    "Busy Status": false
+                },
+                {
+                    "Floor": "Floor-R2-Pod-1",
+                    "Busy Status": false
+                },
+                {
+                    "Floor": "Floor-R2-Pod-3",
+                    "Busy Status": false
+                },
+                {
+                    "Floor": "Floor-R3-Pod-1",
+                    "Busy Status": false
+                },
+                {
+                    "Floor": "Floor-R3-Pod-3",
+                    "Busy Status": false
+                },
+                {
+                    "Floor": "Floor-R4-Pod-1",
+                    "Busy Status": false
+                },
+                {
+                    "Floor": "Floor-R4-Pod-3",
+                    "Busy Status": false
+                },
+                {
+                    "Floor": "Floor-R5-Pod-1",
+                    "Busy Status": false
+                },
+                {
+                    "Floor": "Floor-R5-Pod-3",
+                    "Busy Status": false
+                },
+                {
+                    "Floor": "Floor-R6-Pod-1",
+                    "Busy Status": false
+                },
+                {
+                    "Floor": "Floor-R6-Pod-3",
+                    "Busy Status": false
                 }
             ]
         }

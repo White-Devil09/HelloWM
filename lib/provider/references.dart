@@ -9,7 +9,8 @@ DocumentReference blockRF({
 })=> hostelRF.doc(hostelid).collection("Blocks").doc(blockid);
 
 DocumentReference floorRF({
+  required String? hostelid,
   required String? blockid,
-  // required String? blockid,
-})=> hostelRF.doc(blockid).collection("Floors").doc(blockid);
+  required String? floorid,
+})=> hostelRF.doc(hostelid).collection("Blocks").doc(blockid).collection("Floors").doc(floorid);
 
