@@ -1,7 +1,7 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
 
-final fireStroe = FirebaseFirestore.instance;
-final hostelRF = fireStroe.collection('hostelsData');
+final fireStore = FirebaseFirestore.instance;
+final hostelRF = fireStore.collection('hostelsData');
 
 DocumentReference blockRF({
   required String? hostelid,

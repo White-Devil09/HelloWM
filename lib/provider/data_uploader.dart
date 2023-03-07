@@ -46,7 +46,12 @@ class DataUploader extends GetxController{
           final floorData = floorRF(hostelid: hstl.iD, blockid: blocks.hostelID, floorid: flr.floor);
           batch.set(floorData,{
             "Floor" : flr.floor,
-            "Busy Status": flr.busyStatus
+            "Busy Status": flr.busyStatus,
+            "Working Status": flr.workingStatus,
+            "Name" : flr.name,
+            "UserId": flr.userId,
+            "Room no.": flr.roomNo,
+            "Phone no.": flr.phoneNo
           });
         }
 

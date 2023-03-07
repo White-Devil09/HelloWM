@@ -25,18 +25,6 @@ class LoadingPage extends StatelessWidget {
               ),
             ),
           ),
-          const SizedBox(
-            child: Center(
-              child: Text(
-                "Are you busy?",
-                style: TextStyle(
-                    fontWeight: FontWeight.normal,
-                    color: Color.fromARGB(255, 26, 98, 158),
-                    fontSize: 22,
-                    fontFamily: 'Poppins'),
-              ),
-            ),
-          ),
           Image.asset(
             width: MediaQuery.of(context).size.width,
             height: MediaQuery.of(context).size.height * 0.5,

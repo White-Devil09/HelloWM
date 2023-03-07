@@ -48,18 +48,33 @@ class Hostels {
 class Floors {
   String? floor;
   bool? busyStatus;
+  bool? workingStatus;
+  String? name;
+  String? userId;
+  String? roomNo;
+  String? phoneNo;
 
   Floors({this.floor, this.busyStatus});
 
   Floors.fromJson(Map<String, dynamic> json) {
     floor = json['Floor'];
     busyStatus = json['Busy Status'];
+    workingStatus = json['Working Status'];
+    name = json['Name'];
+    userId = json['UserID'];
+    roomNo = json['Room no.'];
+    phoneNo = json['Phone no.'];
   }
 
   Map<String, dynamic> toJson() {
     final Map<String, dynamic> data = <String, dynamic>{};
     data['Floor'] = floor;
     data['Busy Status'] = busyStatus;
+    data['Working Status'] = workingStatus;
+    data['Name'] = name;
+    data['UserId'] = userId;
+    data['Room no.'] = roomNo;
+    data['Phone no.'] = phoneNo;
     return data;
   }
 }

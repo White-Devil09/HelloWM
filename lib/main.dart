@@ -24,7 +24,7 @@ class HelloWM extends StatelessWidget {
       title: 'Hello WM',
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
-        primarySwatch:Colors.blue,
+        primarySwatch:Colors.blueGrey,
       ),
       home: const SplashScreen(),
     ),

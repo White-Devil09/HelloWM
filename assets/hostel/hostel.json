@@ -7,27 +7,57 @@
             "Floors": [
                 {
                     "Floor": "Floor-A1",
-                    "Busy Status": false
+                    "Busy Status": false,
+                    "Working Status": true,
+                    "Name": "",
+                    "UserID": "",
+                    "Room no.": "",
+                    "Phone no.": ""
                 },
                 {
                     "Floor": "Floor-A2",
-                    "Busy Status": false
+                    "Busy Status": false,
+                    "Working Status": true,
+                    "Name": "",
+                    "UserID": "",
+                    "Room no.": "",
+                    "Phone no.": ""
                 },
                 {
                     "Floor": "Floor-A3",
-                    "Busy Status": false
+                    "Busy Status": false,
+                    "Working Status": true,
+                    "Name": "",
+                    "UserID": "",
+                    "Room no.": "",
+                    "Phone no.": ""
                 },
                 {
                     "Floor": "Floor-A4",
-                    "Busy Status": false
+                    "Busy Status": false,
+                    "Working Status": true,
+                    "Name": "",
+                    "UserID": "",
+                    "Room no.": "",
+                    "Phone no.": ""
                 },
                 {
                     "Floor": "Floor-A5",
-                    "Busy Status": false
+                    "Busy Status": false,
+                    "Working Status": true,
+                    "Name": "",
+                    "UserID": "",
+                    "Room no.": "",
+                    "Phone no.": ""
                 },
                 {
                     "Floor": "Floor-A6",
-                    "Busy Status": false
+                    "Busy Status": false,
+                    "Working Status": true,
+                    "Name": "",
+                    "UserID": "",
+                    "Room no.": "",
+                    "Phone no.": ""
                 }
             ]
         },
@@ -37,27 +67,57 @@
             "Floors": [
                 {
                     "Floor": "Floor-B1",
-                    "Busy Status": false
+                    "Busy Status": false,
+                    "Working Status": true,
+                    "Name": "",
+                    "UserID": "",
+                    "Room no.": "",
+                    "Phone no.": ""
                 },
                 {
                     "Floor": "Floor-B2",
-                    "Busy Status": false
+                    "Busy Status": false,
+                    "Working Status": true,
+                    "Name": "",
+                    "UserID": "",
+                    "Room no.": "",
+                    "Phone no.": ""
                 },
                 {
                     "Floor": "Floor-B3",
-                    "Busy Status": false
+                    "Busy Status": false,
+                    "Working Status": true,
+                    "Name": "",
+                    "UserID": "",
+                    "Room no.": "",
+                    "Phone no.": ""
                 },
                 {
                     "Floor": "Floor-B4",
-                    "Busy Status": false
+                    "Busy Status": false,
+                    "Working Status": true,
+                    "Name": "",
+                    "UserID": "",
+                    "Room no.": "",
+                    "Phone no.": ""
                 },
                 {
                     "Floor": "Floor-B5",
-                    "Busy Status": false
+                    "Busy Status": false,
+                    "Working Status": true,
+                    "Name": "",
+                    "UserID": "",
+                    "Room no.": "",
+                    "Phone no.": ""
                 },
                 {
                     "Floor": "Floor-B6",
-                    "Busy Status": false
+                    "Busy Status": false,
+                    "Working Status": true,
+                    "Name": "",
+                    "UserID": "",
+                    "Room no.": "",
+                    "Phone no.": ""
                 }
             ]
         },
@@ -67,27 +127,57 @@
             "Floors": [
                 {
                     "Floor": "Floor-C1",
-                    "Busy Status": false
+                    "Busy Status": false,
+                    "Working Status": true,
+                    "Name": "",
+                    "UserID": "",
+                    "Room no.": "",
+                    "Phone no.": ""
                 },
                 {
                     "Floor": "Floor-C2",
-                    "Busy Status": false
+                    "Busy Status": false,
+                    "Working Status": true,
+                    "Name": "",
+                    "UserID": "",
+                    "Room no.": "",
+                    "Phone no.": ""
                 },
                 {
                     "Floor": "Floor-C3",
-                    "Busy Status": false
+                    "Busy Status": false,
+                    "Working Status": true,
+                    "Name": "",
+                    "UserID": "",
+                    "Room no.": "",
+                    "Phone no.": ""
                 },
                 {
                     "Floor": "Floor-C4",
-                    "Busy Status": false
+                    "Busy Status": false,
+                    "Working Status": true,
+                    "Name": "",
+                    "UserID": "",
+                    "Room no.": "",
+                    "Phone no.": ""
                 },
                 {
                     "Floor": "Floor-C5",
-                    "Busy Status": false
+                    "Busy Status": false,
+                    "Working Status": true,
+                    "Name": "",
+                    "UserID": "",
+                    "Room no.": "",
+                    "Phone no.": ""
                 },
                 {
                     "Floor": "Floor-C6",
-                    "Busy Status": false
+                    "Busy Status": false,
+                    "Working Status": true,
+                    "Name": "",
+                    "UserID": "",
+                    "Room no.": "",
+                    "Phone no.": ""
                 }
             ]
         },
@@ -97,27 +187,57 @@
             "Floors": [
                 {
                     "Floor": "Floor-D1",
-                    "Busy Status": false
+                    "Busy Status": false,
+                    "Working Status": true,
+                    "Name": "",
+                    "UserID": "",
+                    "Room no.": "",
+                    "Phone no.": ""
                 },
                 {
                     "Floor": "Floor-D2",
-                    "Busy Status": false
+                    "Busy Status": false,
+                    "Working Status": true,
+                    "Name": "",
+                    "UserID": "",
+                    "Room no.": "",
+                    "Phone no.": ""
                 },
                 {
                     "Floor": "Floor-D3",
-                    "Busy Status": false
+                    "Busy Status": false,
+                    "Working Status": true,
+                    "Name": "",
+                    "UserID": "",
+                    "Room no.": "",
+                    "Phone no.": ""
                 },
                 {
                     "Floor": "Floor-D4",
-                    "Busy Status": false
+                    "Busy Status": false,
+                    "Working Status": true,
+                    "Name": "",
+                    "UserID": "",
+                    "Room no.": "",
+                    "Phone no.": ""
                 },
                 {
                     "Floor": "Floor-D5",
-                    "Busy Status": false
+                    "Busy Status": false,
+                    "Working Status": true,
+                    "Name": "",
+                    "UserID": "",
+                    "Room no.": "",
+                    "Phone no.": ""
                 },
                 {
                     "Floor": "Floor-D6",
-                    "Busy Status": false
+                    "Busy Status": false,
+                    "Working Status": true,
+                    "Name": "",
+                    "UserID": "",
+                    "Room no.": "",
+                    "Phone no.": ""
                 }
             ]
         },
@@ -127,27 +247,57 @@
             "Floors": [
                 {
                     "Floor": "Floor-E1",
-                    "Busy Status": false
+                    "Busy Status": false,
+                    "Working Status": true,
+                    "Name": "",
+                    "UserID": "",
+                    "Room no.": "",
+                    "Phone no.": ""
                 },
                 {
                     "Floor": "Floor-E2",
-                    "Busy Status": false
+                    "Busy Status": false,
+                    "Working Status": true,
+                    "Name": "",
+                    "UserID": "",
+                    "Room no.": "",
+                    "Phone no.": ""
                 },
                 {
                     "Floor": "Floor-E3",
-                    "Busy Status": false
+                    "Busy Status": false,
+                    "Working Status": true,
+                    "Name": "",
+                    "UserID": "",
+                    "Room no.": "",
+                    "Phone no.": ""
                 },
                 {
                     "Floor": "Floor-E4",
-                    "Busy Status": false
+                    "Busy Status": false,
+                    "Working Status": true,
+                    "Name": "",
+                    "UserID": "",
+                    "Room no.": "",
+                    "Phone no.": ""
                 },
                 {
                     "Floor": "Floor-E5",
-                    "Busy Status": false
+                    "Busy Status": false,
+                    "Working Status": true,
+                    "Name": "",
+                    "UserID": "",
+                    "Room no.": "",
+                    "Phone no.": ""
                 },
                 {
                     "Floor": "Floor-E6",
-                    "Busy Status": false
+                    "Busy Status": false,
+                    "Working Status": true,
+                    "Name": "",
+                    "UserID": "",
+                    "Room no.": "",
+                    "Phone no.": ""
                 }
             ]
         },
@@ -157,27 +307,57 @@
             "Floors": [
                 {
                     "Floor": "Floor-F1",
-                    "Busy Status": false
+                    "Busy Status": false,
+                    "Working Status": true,
+                    "Name": "",
+                    "UserID": "",
+                    "Room no.": "",
+                    "Phone no.": ""
                 },
                 {
                     "Floor": "Floor-F2",
-                    "Busy Status": false
+                    "Busy Status": false,
+                    "Working Status": true,
+                    "Name": "",
+                    "UserID": "",
+                    "Room no.": "",
+                    "Phone no.": ""
                 },
                 {
                     "Floor": "Floor-F3",
-                    "Busy Status": false
+                    "Busy Status": false,
+                    "Working Status": true,
+                    "Name": "",
+                    "UserID": "",
+                    "Room no.": "",
+                    "Phone no.": ""
                 },
                 {
                     "Floor": "Floor-F4",
-                    "Busy Status": false
+                    "Busy Status": false,
+                    "Working Status": true,
+                    "Name": "",
+                    "UserID": "",
+                    "Room no.": "",
+                    "Phone no.": ""
                 },
                 {
                     "Floor": "Floor-F5",
-                    "Busy Status": false
+                    "Busy Status": false,
+                    "Working Status": true,
+                    "Name": "",
+                    "UserID": "",
+                    "Room no.": "",
+                    "Phone no.": ""
                 },
                 {
                     "Floor": "Floor-F6",
-                    "Busy Status": false
+                    "Busy Status": false,
+                    "Working Status": true,
+                    "Name": "",
+                    "UserID": "",
+                    "Room no.": "",
+                    "Phone no.": ""
                 }
             ]
         },
@@ -187,27 +367,57 @@
             "Floors": [
                 {
                     "Floor": "Floor-G1",
-                    "Busy Status": false
+                    "Busy Status": false,
+                    "Working Status": true,
+                    "Name": "",
+                    "UserID": "",
+                    "Room no.": "",
+                    "Phone no.": ""
                 },
                 {
                     "Floor": "Floor-G2",
-                    "Busy Status": false
+                    "Busy Status": false,
+                    "Working Status": true,
+                    "Name": "",
+                    "UserID": "",
+                    "Room no.": "",
+                    "Phone no.": ""
                 },
                 {
                     "Floor": "Floor-G3",
-                    "Busy Status": false
+                    "Busy Status": false,
+                    "Working Status": true,
+                    "Name": "",
+                    "UserID": "",
+                    "Room no.": "",
+                    "Phone no.": ""
                 },
                 {
                     "Floor": "Floor-G4",
-                    "Busy Status": false
+                    "Busy Status": false,
+                    "Working Status": true,
+                    "Name": "",
+                    "UserID": "",
+                    "Room no.": "",
+                    "Phone no.": ""
                 },
                 {
                     "Floor": "Floor-G5",
-                    "Busy Status": false
+                    "Busy Status": false,
+                    "Working Status": true,
+                    "Name": "",
+                    "UserID": "",
+                    "Room no.": "",
+                    "Phone no.": ""
                 },
                 {
                     "Floor": "Floor-G6",
-                    "Busy Status": false
+                    "Busy Status": false,
+                    "Working Status": true,
+                    "Name": "",
+                    "UserID": "",
+                    "Room no.": "",
+                    "Phone no.": ""
                 }
             ]
         },
@@ -217,27 +427,57 @@
             "Floors": [
                 {
                     "Floor": "Floor-H1",
-                    "Busy Status": false
+                    "Busy Status": false,
+                    "Working Status": true,
+                    "Name": "",
+                    "UserID": "",
+                    "Room no.": "",
+                    "Phone no.": ""
                 },
                 {
                     "Floor": "Floor-H2",
-                    "Busy Status": false
+                    "Busy Status": false,
+                    "Working Status": true,
+                    "Name": "",
+                    "UserID": "",
+                    "Room no.": "",
+                    "Phone no.": ""
                 },
                 {
                     "Floor": "Floor-H3",
-                    "Busy Status": false
+                    "Busy Status": false,
+                    "Working Status": true,
+                    "Name": "",
+                    "UserID": "",
+                    "Room no.": "",
+                    "Phone no.": ""
                 },
                 {
                     "Floor": "Floor-H4",
-                    "Busy Status": false
+                    "Busy Status": false,
+                    "Working Status": true,
+                    "Name": "",
+                    "UserID": "",
+                    "Room no.": "",
+                    "Phone no.": ""
                 },
                 {
                     "Floor": "Floor-H5",
-                    "Busy Status": false
+                    "Busy Status": false,
+                    "Working Status": true,
+                    "Name": "",
+                    "UserID": "",
+                    "Room no.": "",
+                    "Phone no.": ""
                 },
                 {
                     "Floor": "Floor-H6",
-                    "Busy Status": false
+                    "Busy Status": false,
+                    "Working Status": true,
+                    "Name": "",
+                    "UserID": "",
+                    "Room no.": "",
+                    "Phone no.": ""
                 }
             ]
         },
@@ -247,27 +487,57 @@
             "Floors": [
                 {
                     "Floor": "Floor-I1",
-                    "Busy Status": false
+                    "Busy Status": false,
+                    "Working Status": true,
+                    "Name": "",
+                    "UserID": "",
+                    "Room no.": "",
+                    "Phone no.": ""
                 },
                 {
                     "Floor": "Floor-I2",
-                    "Busy Status": false
+                    "Busy Status": false,
+                    "Working Status": true,
+                    "Name": "",
+                    "UserID": "",
+                    "Room no.": "",
+                    "Phone no.": ""
                 },
                 {
                     "Floor": "Floor-I3",
-                    "Busy Status": false
+                    "Busy Status": false,
+                    "Working Status": true,
+                    "Name": "",
+                    "UserID": "",
+                    "Room no.": "",
+                    "Phone no.": ""
                 },
                 {
                     "Floor": "Floor-I4",
-                    "Busy Status": false
+                    "Busy Status": false,
+                    "Working Status": true,
+                    "Name": "",
+                    "UserID": "",
+                    "Room no.": "",
+                    "Phone no.": ""
                 },
                 {
                     "Floor": "Floor-I5",
-                    "Busy Status": false
+                    "Busy Status": false,
+                    "Working Status": true,
+                    "Name": "",
+                    "UserID": "",
+                    "Room no.": "",
+                    "Phone no.": ""
                 },
                 {
                     "Floor": "Floor-I6",
-                    "Busy Status": false
+                    "Busy Status": false,
+                    "Working Status": true,
+                    "Name": "",
+                    "UserID": "",
+                    "Room no.": "",
+                    "Phone no.": ""
                 }
             ]
         },
@@ -277,27 +547,57 @@
             "Floors": [
                 {
                     "Floor": "Floor-J1",
-                    "Busy Status": false
+                    "Busy Status": false,
+                    "Working Status": true,
+                    "Name": "",
+                    "UserID": "",
+                    "Room no.": "",
+                    "Phone no.": ""
                 },
                 {
                     "Floor": "Floor-J2",
-                    "Busy Status": false
+                    "Busy Status": false,
+                    "Working Status": true,
+                    "Name": "",
+                    "UserID": "",
+                    "Room no.": "",
+                    "Phone no.": ""
                 },
                 {
                     "Floor": "Floor-J3",
-                    "Busy Status": false
+                    "Busy Status": false,
+                    "Working Status": true,
+                    "Name": "",
+                    "UserID": "",
+                    "Room no.": "",
+                    "Phone no.": ""
                 },
                 {
                     "Floor": "Floor-J4",
-                    "Busy Status": false
+                    "Busy Status": false,
+                    "Working Status": true,
+                    "Name": "",
+                    "UserID": "",
+                    "Room no.": "",
+                    "Phone no.": ""
                 },
                 {
                     "Floor": "Floor-J5",
-                    "Busy Status": false
+                    "Busy Status": false,
+                    "Working Status": true,
+                    "Name": "",
+                    "UserID": "",
+                    "Room no.": "",
+                    "Phone no.": ""
                 },
                 {
                     "Floor": "Floor-J6",
-                    "Busy Status": false
+                    "Busy Status": false,
+                    "Working Status": true,
+                    "Name": "",
+                    "UserID": "",
+                    "Room no.": "",
+                    "Phone no.": ""
                 }
             ]
         },
@@ -307,43 +607,93 @@
             "Floors": [
                 {
                     "Floor": "Floor-K1",
-                    "Busy Status": false
+                    "Busy Status": false,
+                    "Working Status": true,
+                    "Name": "",
+                    "UserID": "",
+                    "Room no.": "",
+                    "Phone no.": ""
                 },
                 {
                     "Floor": "Floor-K2",
-                    "Busy Status": false
+                    "Busy Status": false,
+                    "Working Status": true,
+                    "Name": "",
+                    "UserID": "",
+                    "Room no.": "",
+                    "Phone no.": ""
                 },
                 {
                     "Floor": "Floor-K3",
-                    "Busy Status": false
+                    "Busy Status": false,
+                    "Working Status": true,
+                    "Name": "",
+                    "UserID": "",
+                    "Room no.": "",
+                    "Phone no.": ""
                 },
                 {
                     "Floor": "Floor-K4",
-                    "Busy Status": false
+                    "Busy Status": false,
+                    "Working Status": true,
+                    "Name": "",
+                    "UserID": "",
+                    "Room no.": "",
+                    "Phone no.": ""
                 },
                 {
                     "Floor": "Floor-K5",
-                    "Busy Status": false
+                    "Busy Status": false,
+                    "Working Status": true,
+                    "Name": "",
+                    "UserID": "",
+                    "Room no.": "",
+                    "Phone no.": ""
                 },
                 {
                     "Floor": "Floor-K6",
-                    "Busy Status": false
+                    "Busy Status": false,
+                    "Working Status": true,
+                    "Name": "",
+                    "UserID": "",
+                    "Room no.": "",
+                    "Phone no.": ""
                 },
                 {
                     "Floor": "Floor-K7",
-                    "Busy Status": false
+                    "Busy Status": false,
+                    "Working Status": true,
+                    "Name": "",
+                    "UserID": "",
+                    "Room no.": "",
+                    "Phone no.": ""
                 },
                 {
                     "Floor": "Floor-K8",
-                    "Busy Status": false
+                    "Busy Status": false,
+                    "Working Status": true,
+                    "Name": "",
+                    "UserID": "",
+                    "Room no.": "",
+                    "Phone no.": ""
                 },
                 {
                     "Floor": "Floor-K9",
-                    "Busy Status": false
+                    "Busy Status": false,
+                    "Working Status": true,
+                    "Name": "",
+                    "UserID": "",
+                    "Room no.": "",
+                    "Phone no.": ""
                 },
                 {
                     "Floor": "Floor-K10",
-                    "Busy Status": false
+                    "Busy Status": false,
+                    "Working Status": true,
+                    "Name": "",
+                    "UserID": "",
+                    "Room no.": "",
+                    "Phone no.": ""
                 }
             ]
         },
@@ -353,43 +703,93 @@
             "Floors": [
                 {
                     "Floor": "Floor-L1",
-                    "Busy Status": false
+                    "Busy Status": false,
+                    "Working Status": true,
+                    "Name": "",
+                    "UserID": "",
+                    "Room no.": "",
+                    "Phone no.": ""
                 },
                 {
                     "Floor": "Floor-L2",
-                    "Busy Status": false
+                    "Busy Status": false,
+                    "Working Status": true,
+                    "Name": "",
+                    "UserID": "",
+                    "Room no.": "",
+                    "Phone no.": ""
                 },
                 {
                     "Floor": "Floor-L3",
-                    "Busy Status": false
+                    "Busy Status": false,
+                    "Working Status": true,
+                    "Name": "",
+                    "UserID": "",
+                    "Room no.": "",
+                    "Phone no.": ""
                 },
                 {
                     "Floor": "Floor-L4",
-                    "Busy Status": false
+                    "Busy Status": false,
+                    "Working Status": true,
+                    "Name": "",
+                    "UserID": "",
+                    "Room no.": "",
+                    "Phone no.": ""
                 },
                 {
                     "Floor": "Floor-L5",
-                    "Busy Status": false
+                    "Busy Status": false,
+                    "Working Status": true,
+                    "Name": "",
+                    "UserID": "",
+                    "Room no.": "",
+                    "Phone no.": ""
                 },
                 {
                     "Floor": "Floor-L6",
-                    "Busy Status": false
+                    "Busy Status": false,
+                    "Working Status": true,
+                    "Name": "",
+                    "UserID": "",
+                    "Room no.": "",
+                    "Phone no.": ""
                 },
                 {
                     "Floor": "Floor-L7",
-                    "Busy Status": false
+                    "Busy Status": false,
+                    "Working Status": true,
+                    "Name": "",
+                    "UserID": "",
+                    "Room no.": "",
+                    "Phone no.": ""
                 },
                 {
                     "Floor": "Floor-L8",
-                    "Busy Status": false
+                    "Busy Status": false,
+                    "Working Status": true,
+                    "Name": "",
+                    "UserID": "",
+                    "Room no.": "",
+                    "Phone no.": ""
                 },
                 {
                     "Floor": "Floor-L9",
-                    "Busy Status": false
+                    "Busy Status": false,
+                    "Working Status": true,
+                    "Name": "",
+                    "UserID": "",
+                    "Room no.": "",
+                    "Phone no.": ""
                 },
                 {
                     "Floor": "Floor-L10",
-                    "Busy Status": false
+                    "Busy Status": false,
+                    "Working Status": true,
+                    "Name": "",
+                    "UserID": "",
+                    "Room no.": "",
+                    "Phone no.": ""
                 }
             ]
         },
@@ -399,43 +799,93 @@
             "Floors": [
                 {
                     "Floor": "Floor-M1",
-                    "Busy Status": false
+                    "Busy Status": false,
+                    "Working Status": true,
+                    "Name": "",
+                    "UserID": "",
+                    "Room no.": "",
+                    "Phone no.": ""
                 },
                 {
                     "Floor": "Floor-M2",
-                    "Busy Status": false
+                    "Busy Status": false,
+                    "Working Status": true,
+                    "Name": "",
+                    "UserID": "",
+                    "Room no.": "",
+                    "Phone no.": ""
                 },
                 {
                     "Floor": "Floor-M3",
-                    "Busy Status": false
+                    "Busy Status": false,
+                    "Working Status": true,
+                    "Name": "",
+                    "UserID": "",
+                    "Room no.": "",
+                    "Phone no.": ""
                 },
                 {
                     "Floor": "Floor-M4",
-                    "Busy Status": false
+                    "Busy Status": false,
+                    "Working Status": true,
+                    "Name": "",
+                    "UserID": "",
+                    "Room no.": "",
+                    "Phone no.": ""
                 },
                 {
                     "Floor": "Floor-M5",
-                    "Busy Status": false
+                    "Busy Status": false,
+                    "Working Status": true,
+                    "Name": "",
+                    "UserID": "",
+                    "Room no.": "",
+                    "Phone no.": ""
                 },
                 {
                     "Floor": "Floor-M6",
-                    "Busy Status": false
+                    "Busy Status": false,
+                    "Working Status": true,
+                    "Name": "",
+                    "UserID": "",
+                    "Room no.": "",
+                    "Phone no.": ""
                 },
                 {
                     "Floor": "Floor-M7",
-                    "Busy Status": false
+                    "Busy Status": false,
+                    "Working Status": true,
+                    "Name": "",
+                    "UserID": "",
+                    "Room no.": "",
+                    "Phone no.": ""
                 },
                 {
                     "Floor": "Floor-M8",
-                    "Busy Status": false
+                    "Busy Status": false,
+                    "Working Status": true,
+                    "Name": "",
+                    "UserID": "",
+                    "Room no.": "",
+                    "Phone no.": ""
                 },
                 {
                     "Floor": "Floor-M9",
-                    "Busy Status": false
+                    "Busy Status": false,
+                    "Working Status": true,
+                    "Name": "",
+                    "UserID": "",
+                    "Room no.": "",
+                    "Phone no.": ""
                 },
                 {
                     "Floor": "Floor-M10",
-                    "Busy Status": false
+                    "Busy Status": false,
+                    "Working Status": true,
+                    "Name": "",
+                    "UserID": "",
+                    "Room no.": "",
+                    "Phone no.": ""
                 }
             ]
         },
@@ -445,51 +895,111 @@
             "Floors": [
                 {
                     "Floor": "Floor-R1-Pod-1",
-                    "Busy Status": false
+                    "Busy Status": false,
+                    "Working Status": true,
+                    "Name": "",
+                    "UserID": "",
+                    "Room no.": "",
+                    "Phone no.": ""
                 },
                 {
                     "Floor": "Floor-R1-Pod-3",
-                    "Busy Status": false
+                    "Busy Status": false,
+                    "Working Status": true,
+                    "Name": "",
+                    "UserID": "",
+                    "Room no.": "",
+                    "Phone no.": ""
                 },
                 {
                     "Floor": "Floor-R2-Pod-1",
-                    "Busy Status": false
+                    "Busy Status": false,
+                    "Working Status": true,
+                    "Name": "",
+                    "UserID": "",
+                    "Room no.": "",
+                    "Phone no.": ""
                 },
                 {
                     "Floor": "Floor-R2-Pod-3",
-                    "Busy Status": false
+                    "Busy Status": false,
+                    "Working Status": true,
+                    "Name": "",
+                    "UserID": "",
+                    "Room no.": "",
+                    "Phone no.": ""
                 },
                 {
                     "Floor": "Floor-R3-Pod-1",
-                    "Busy Status": false
+                    "Busy Status": false,
+                    "Working Status": true,
+                    "Name": "",
+                    "UserID": "",
+                    "Room no.": "",
+                    "Phone no.": ""
                 },
                 {
                     "Floor": "Floor-R3-Pod-3",
-                    "Busy Status": false
+                    "Busy Status": false,
+                    "Working Status": true,
+                    "Name": "",
+                    "UserID": "",
+                    "Room no.": "",
+                    "Phone no.": ""
                 },
                 {
                     "Floor": "Floor-R4-Pod-1",
-                    "Busy Status": false
+                    "Busy Status": false,
+                    "Working Status": true,
+                    "Name": "",
+                    "UserID": "",
+                    "Room no.": "",
+                    "Phone no.": ""
                 },
                 {
                     "Floor": "Floor-R4-Pod-3",
-                    "Busy Status": false
+                    "Busy Status": false,
+                    "Working Status": true,
+                    "Name": "",
+                    "UserID": "",
+                    "Room no.": "",
+                    "Phone no.": ""
                 },
                 {
                     "Floor": "Floor-R5-Pod-1",
-                    "Busy Status": false
+                    "Busy Status": false,
+                    "Working Status": true,
+                    "Name": "",
+                    "UserID": "",
+                    "Room no.": "",
+                    "Phone no.": ""
                 },
                 {
                     "Floor": "Floor-R5-Pod-3",
-                    "Busy Status": false
+                    "Busy Status": false,
+                    "Working Status": true,
+                    "Name": "",
+                    "UserID": "",
+                    "Room no.": "",
+                    "Phone no.": ""
                 },
                 {
                     "Floor": "Floor-R6-Pod-1",
-                    "Busy Status": false
+                    "Busy Status": false,
+                    "Working Status": true,
+                    "Name": "",
+                    "UserID": "",
+                    "Room no.": "",
+                    "Phone no.": ""
                 },
                 {
                     "Floor": "Floor-R6-Pod-3",
-                    "Busy Status": false
+                    "Busy Status": false,
+                    "Working Status": true,
+                    "Name": "",
+                    "UserID": "",
+                    "Room no.": "",
+                    "Phone no.": ""
                 }
             ]
         }
