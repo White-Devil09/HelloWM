@@ -47,6 +47,7 @@ class DataUploader extends GetxController{
           batch.set(floorData,{
             "Floor" : flr.floor,
             "Busy Status": flr.busyStatus,
+            "Block": flr.block,
             "Working Status": flr.workingStatus,
             "Name" : flr.name,
             "UserId": flr.userId,

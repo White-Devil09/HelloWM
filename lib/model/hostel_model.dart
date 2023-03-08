@@ -48,6 +48,7 @@ class Hostels {
 class Floors {
   String? floor;
   bool? busyStatus;
+  String? block;
   bool? workingStatus;
   String? name;
   String? userId;
@@ -59,6 +60,7 @@ class Floors {
   Floors.fromJson(Map<String, dynamic> json) {
     floor = json['Floor'];
     busyStatus = json['Busy Status'];
+    block = json['Block'];
     workingStatus = json['Working Status'];
     name = json['Name'];
     userId = json['UserID'];
@@ -70,6 +72,7 @@ class Floors {
     final Map<String, dynamic> data = <String, dynamic>{};
     data['Floor'] = floor;
     data['Busy Status'] = busyStatus;
+    data['Block'] = block;
     data['Working Status'] = workingStatus;
     data['Name'] = name;
     data['UserId'] = userId;
