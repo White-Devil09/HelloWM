@@ -2,7 +2,7 @@ import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:hellowm/pages/floor_screen.dart';
-// import 'package:hellowm/pages/user_screen.dart';
+import 'package:hellowm/pages/user_screen.dart';
 
 class HomePage extends StatefulWidget {
   const HomePage({super.key});
@@ -52,6 +52,23 @@ class _HomePageState extends State<HomePage> {
                   fontWeight: FontWeight.bold,
                 ),
               ),
+              actions: [
+                InkWell(
+                  child: Padding(
+                    padding:  EdgeInsets.only(right:MediaQuery.of(context).size.width*0.05),
+                    child: CircleAvatar(
+                      backgroundImage: NetworkImage(user.photoURL!),
+                    ),
+                  ),
+                  onTap: () {
+                          Navigator.push(
+                            context,
+                            MaterialPageRoute(
+                                builder: (context) =>  UserPage()),
+                          );
+                        },
+                )
+              ],
             ),
             Positioned(
               top: MediaQuery.of(context).size.height * 0.14,

@@ -1,6 +1,8 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
+import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:hellowm/pages/machine_status.dart';
+import 'package:hellowm/pages/user_screen.dart';
 
 class FloorPage extends StatefulWidget {
   final String blockname;
@@ -12,6 +14,8 @@ class FloorPage extends StatefulWidget {
 }
 
 class _FloorPageState extends State<FloorPage> {
+    final user = FirebaseAuth.instance.currentUser!;
+
   @override
   Widget build(BuildContext context) {
     final CollectionReference floors = FirebaseFirestore.instance
@@ -49,6 +53,23 @@ class _FloorPageState extends State<FloorPage> {
               fontWeight: FontWeight.bold,
             ),
           ),
+          actions: [
+            InkWell(
+              child: Padding(
+                padding: EdgeInsets.only(
+                    right: MediaQuery.of(context).size.width * 0.05),
+                child: CircleAvatar(
+                  backgroundImage: NetworkImage(user.photoURL!),
+                ),
+              ),
+              onTap: () {
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(builder: (context) =>  UserPage()),
+                );
+              },
+            )
+          ],
         ),
         Expanded(
           child: StreamBuilder(
