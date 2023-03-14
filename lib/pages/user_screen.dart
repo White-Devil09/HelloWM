@@ -1,5 +1,11 @@
+import 'dart:async';
+
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
+import 'package:provider/provider.dart';
+
+import '../provider/controller.dart';
+import '../provider/google_signin.dart';
 
 class UserPage extends StatelessWidget {
   UserPage({super.key});
@@ -80,9 +86,49 @@ class UserPage extends StatelessWidget {
                     ),
                     onPressed: () {},
                     child: const Padding(
-                      padding: EdgeInsets.symmetric(vertical:15.0),
+                      padding: EdgeInsets.symmetric(vertical: 15.0),
                       child: Text(
                         "Edit Profile",
+                        style: TextStyle(
+                          fontWeight: FontWeight.bold,
+                          fontSize: 18,
+                          color: Colors.black,
+                        ),
+                      ),
+                    ),
+                  )),
+              SizedBox(height: MediaQuery.of(context).size.height * 0.05),
+              SizedBox(
+                  width: 200,
+                  child: ElevatedButton(
+                    style: ButtonStyle(
+                      backgroundColor:
+                          MaterialStateProperty.all<Color>(Colors.yellow),
+                      shape: MaterialStateProperty.all<RoundedRectangleBorder>(
+                        RoundedRectangleBorder(
+                          borderRadius: BorderRadius.circular(18.0),
+                          side: const BorderSide(color: Colors.red),
+                        ),
+                      ),
+                    ),
+                    onPressed: () {
+                      final provider = Provider.of<GoogleSignInProvider>(
+                          context,
+                          listen: false);
+                      provider.logout();
+                      Timer(const Duration(milliseconds: 800), () {
+                        Navigator.pushReplacement(
+                          context,
+                          MaterialPageRoute(
+                            builder: (context) => const ControllerPage(),
+                          ),
+                        );
+                      });
+                    },
+                    child: const Padding(
+                      padding: EdgeInsets.symmetric(vertical: 15.0),
+                      child: Text(
+                        "Log out",
                         style: TextStyle(
                           fontWeight: FontWeight.bold,
                           fontSize: 18,
