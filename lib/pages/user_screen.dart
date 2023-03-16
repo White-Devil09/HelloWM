@@ -116,7 +116,7 @@ class UserPage extends StatelessWidget {
                           context,
                           listen: false);
                       provider.logout();
-                      Timer(const Duration(milliseconds: 800), () {
+                      Timer(const Duration(milliseconds: 1800), () {
                         Navigator.pushReplacement(
                           context,
                           MaterialPageRoute(
