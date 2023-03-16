@@ -75,7 +75,7 @@ class _HomePageState extends State<HomePage> {
               right: MediaQuery.of(context).size.width * 0.2,
               left: MediaQuery.of(context).size.width * 0.12,
               child: Text(
-                "Welcome,\n${user.displayName},\nHave a good laundary.",
+                "Welcome,\n${user.displayName},\nHave a good laundry.",
                 style: const TextStyle(
                   fontWeight: FontWeight.w500,
                   fontFamily: "Poppins",
