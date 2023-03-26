@@ -7,9 +7,17 @@ import 'package:provider/provider.dart';
 import '../provider/controller.dart';
 import '../provider/google_signin.dart';
 
-class UserPage extends StatelessWidget {
-  UserPage({super.key});
+class UserPage extends StatefulWidget {
+  const UserPage({super.key});
+
+  @override
+  State<UserPage> createState() => _UserPageState();
+}
+
+class _UserPageState extends State<UserPage> {
   final user = FirebaseAuth.instance.currentUser!;
+
+  ControllerPage controll() => const ControllerPage();
 
   @override
   Widget build(BuildContext context) {
@@ -88,7 +96,7 @@ class UserPage extends StatelessWidget {
                     child: const Padding(
                       padding: EdgeInsets.symmetric(vertical: 15.0),
                       child: Text(
-                        "Edit Profile",
+                        "Edit Details",
                         style: TextStyle(
                           fontWeight: FontWeight.bold,
                           fontSize: 18,
@@ -99,44 +107,45 @@ class UserPage extends StatelessWidget {
                   )),
               SizedBox(height: MediaQuery.of(context).size.height * 0.05),
               SizedBox(
-                  width: 200,
-                  child: ElevatedButton(
-                    style: ButtonStyle(
-                      backgroundColor:
-                          MaterialStateProperty.all<Color>(Colors.yellow),
-                      shape: MaterialStateProperty.all<RoundedRectangleBorder>(
-                        RoundedRectangleBorder(
-                          borderRadius: BorderRadius.circular(18.0),
-                          side: const BorderSide(color: Colors.red),
-                        ),
+                width: 200,
+                child: ElevatedButton(
+                  style: ButtonStyle(
+                    backgroundColor:
+                        MaterialStateProperty.all<Color>(Colors.yellow),
+                    shape: MaterialStateProperty.all<RoundedRectangleBorder>(
+                      RoundedRectangleBorder(
+                        borderRadius: BorderRadius.circular(18.0),
+                        side: const BorderSide(color: Colors.red),
                       ),
                     ),
-                    onPressed: () {
-                      final provider = Provider.of<GoogleSignInProvider>(
-                          context,
-                          listen: false);
-                      provider.logout();
-                      Timer(const Duration(milliseconds: 1800), () {
-                        Navigator.pushReplacement(
-                          context,
-                          MaterialPageRoute(
-                            builder: (context) => const ControllerPage(),
-                          ),
-                        );
-                      });
-                    },
-                    child: const Padding(
-                      padding: EdgeInsets.symmetric(vertical: 15.0),
-                      child: Text(
-                        "Log out",
-                        style: TextStyle(
-                          fontWeight: FontWeight.bold,
-                          fontSize: 18,
-                          color: Colors.black,
+                  ),
+                  onPressed: () {
+                    final provider = Provider.of<GoogleSignInProvider>(context,
+                        listen: false);
+                    provider.logout();
+                    Timer(const Duration(milliseconds: 1800), () {
+                      Navigator.pushReplacement(
+                        context,
+                        MaterialPageRoute(
+                          builder: (context) => const ControllerPage(),
                         ),
+                      );
+                      Navigator.pop(context);
+                    });
+                  },
+                  child: const Padding(
+                    padding: EdgeInsets.symmetric(vertical: 15.0),
+                    child: Text(
+                      "Log out",
+                      style: TextStyle(
+                        fontWeight: FontWeight.bold,
+                        fontSize: 18,
+                        color: Colors.black,
                       ),
                     ),
-                  ))
+                  ),
+                ),
+              )
             ],
           ),
         )

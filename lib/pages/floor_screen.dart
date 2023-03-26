@@ -65,7 +65,7 @@ class _FloorPageState extends State<FloorPage> {
               onTap: () {
                 Navigator.push(
                   context,
-                  MaterialPageRoute(builder: (context) =>  UserPage()),
+                  MaterialPageRoute(builder: (context) =>  const UserPage()),
                 );
               },
             )
@@ -96,7 +96,8 @@ class _FloorPageState extends State<FloorPage> {
                             context,
                             MaterialPageRoute(
                               builder: (context) => MachineStatusPage(
-                                  floorid: floordata["Floor"]),
+                                  floorid: floordata["Floor"],
+                                  busystats: floordata["Busy Status"],),
                             ),
                           );
                         },

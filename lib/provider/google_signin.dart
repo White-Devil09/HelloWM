@@ -1,3 +1,4 @@
+import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:google_sign_in/google_sign_in.dart';
@@ -5,6 +6,7 @@ import 'dart:io';
 
 class GoogleSignInProvider extends ChangeNotifier {
   final googleSignIn = GoogleSignIn();
+  final FirebaseFirestore _firestore = FirebaseFirestore.instance;
 
   GoogleSignInAccount? _user;
 
@@ -21,7 +23,18 @@ class GoogleSignInProvider extends ChangeNotifier {
       final crediential = GoogleAuthProvider.credential(
           accessToken: googleAuth.accessToken, idToken: googleAuth.idToken);
 
-      await FirebaseAuth.instance.signInWithCredential(crediential);
+      UserCredential userCredential =  await FirebaseAuth.instance.signInWithCredential(crediential);
+      User? user = userCredential.user;
+
+      if(user != null){
+        if(userCredential.additionalUserInfo!.isNewUser){
+          await _firestore.collection("hostelsData").doc("IITH").collection("Users").doc(user.uid).set({
+            "User Name" : user.displayName,
+            "User Profile" : user.photoURL,
+            "User id" : user.uid
+          });
+        }
+      }
     } catch (e) {
       stdout.write(e.toString());
     }
