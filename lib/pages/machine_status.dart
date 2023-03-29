@@ -1,5 +1,6 @@
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
+import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:hellowm/pages/user_screen.dart';
 
 class MachineStatusPage extends StatelessWidget {
@@ -55,7 +56,45 @@ class MachineStatusPage extends StatelessWidget {
             height: MediaQuery.of(context).size.height * 0.45,
             busystats ? 'assets/Images/Busy.webp' : 'assets/Images/Free.webp',
           ),
-
+          Padding(
+            padding: EdgeInsets.symmetric(
+              horizontal: MediaQuery.of(context).size.width * 0.15,
+              vertical: MediaQuery.of(context).size.height * 0.05,
+            ),
+            child: Row(
+              children: const [
+                Text(
+                  "Status",
+                  style: TextStyle(
+                    color: Colors.black,
+                    fontWeight: FontWeight.bold,
+                    fontSize: 25,
+                  ),
+                ),
+                Text("data")
+              ],
+            ),
+          ),
+          ElevatedButton.icon(
+            style: ElevatedButton.styleFrom(
+              backgroundColor: Colors.blue,
+              foregroundColor: Colors.black,
+              minimumSize: Size(MediaQuery.of(context).size.width * 0.7, 50),
+            ),
+            onPressed: () {},
+            label: const Text(
+              " Add clothes",
+              style: TextStyle(
+                fontWeight: FontWeight.bold,
+                fontSize: 28,
+                color: Colors.white,
+              ),
+            ),
+            icon: const FaIcon(
+              FontAwesomeIcons.box,
+              color: Colors.white,
+            ),
+          )
         ],
       ),
     );
