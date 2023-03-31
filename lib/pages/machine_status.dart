@@ -1,6 +1,7 @@
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
+import 'package:hellowm/pages/add_clothes.dart';
 import 'package:hellowm/pages/user_screen.dart';
 
 class MachineStatusPage extends StatelessWidget {
@@ -62,8 +63,8 @@ class MachineStatusPage extends StatelessWidget {
               vertical: MediaQuery.of(context).size.height * 0.05,
             ),
             child: Row(
-              children: const [
-                Text(
+              children: [
+                const Text(
                   "Status",
                   style: TextStyle(
                     color: Colors.black,
@@ -71,17 +72,41 @@ class MachineStatusPage extends StatelessWidget {
                     fontSize: 25,
                   ),
                 ),
-                Text("data")
+                SizedBox(
+                  width: MediaQuery.of(context).size.width * 0.22,
+                ),
+                Chip(
+                  label: Text(
+                    busystats ? "Busy" : "Free",
+                    style: const TextStyle(
+                        fontSize: 20,
+                        fontWeight: FontWeight.bold,
+                        color: Colors.white),
+                  ),
+                  backgroundColor: Colors.green,
+                  labelPadding: EdgeInsets.symmetric(
+                    vertical: MediaQuery.of(context).size.height * 0.002,
+                    horizontal: MediaQuery.of(context).size.width * 0.07,
+                  ),
+                )
               ],
             ),
           ),
+          // busystats? ## here comes :
           ElevatedButton.icon(
             style: ElevatedButton.styleFrom(
               backgroundColor: Colors.blue,
               foregroundColor: Colors.black,
               minimumSize: Size(MediaQuery.of(context).size.width * 0.7, 50),
             ),
-            onPressed: () {},
+            onPressed: () {
+              Navigator.push(
+                context,
+                MaterialPageRoute(
+                  builder: (context) => AddClothesPage(),
+                ),
+              );
+            },
             label: const Text(
               " Add clothes",
               style: TextStyle(
