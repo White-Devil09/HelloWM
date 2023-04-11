@@ -103,7 +103,7 @@ class MachineStatusPage extends StatelessWidget {
               Navigator.push(
                 context,
                 MaterialPageRoute(
-                  builder: (context) => AddClothesPage(),
+                  builder: (context) => const AddClothesPage(),
                 ),
               );
             },
