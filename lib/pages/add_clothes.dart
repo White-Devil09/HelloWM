@@ -2,9 +2,16 @@ import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:hellowm/pages/user_screen.dart';
 
-class AddClothesPage extends StatelessWidget {
-  AddClothesPage({super.key});
+class AddClothesPage extends StatefulWidget {
+  const AddClothesPage({super.key});
+
+  @override
+  State<AddClothesPage> createState() => _AddClothesPageState();
+}
+
+class _AddClothesPageState extends State<AddClothesPage> {
   final user = FirebaseAuth.instance.currentUser!;
+  int _hour = 0,_minute = 59;
 
   @override
   Widget build(BuildContext context) {
@@ -44,6 +51,20 @@ class AddClothesPage extends StatelessWidget {
               )
             ],
           ),
+          SizedBox(
+            width: MediaQuery.of(context).size.width,
+            height: MediaQuery.of(context).size.height*0.15,
+          ),
+          Padding(
+            padding:  EdgeInsets.symmetric(horizontal: MediaQuery.of(context).size.width * 0.25),
+            child: Row(
+              mainAxisAlignment: MainAxisAlignment.spaceBetween,
+              children: [
+                Text('$_hour'),
+                Text('$_minute')
+              ],
+            ),
+          )
         ],
       ),
     );
